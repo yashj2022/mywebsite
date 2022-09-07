@@ -30,6 +30,7 @@ body{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    padding: 0.5rem 0.5rem;
 }
 .secondery-link{
     background-color: var(--primary-color);
@@ -40,6 +41,8 @@ body{
 
 .list-non-bullet{
     list-style: none;
+    margin: auto;
+    
 }
 
 .list-item-inline{
@@ -76,6 +79,8 @@ body{
 .hero {
     padding: 2rem;
     padding-top: 5rem;
+    font-family: 'Antonio'
+    
 
 }
 
@@ -101,14 +106,17 @@ body{
 }
 .section h1{
     text-align: center;
+    
 }
 .ow{
     background-color:#67e8f9;
+    padding:1rem;
 }
+
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
