@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Roboto&display=swap');
+
 
 
 :root{
@@ -6,7 +7,7 @@
 }
 
 body{
-    font-family: 'Antonio', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .contener{
@@ -54,6 +55,7 @@ body{
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    font-family: 'Antonio', sans-serif;
 }
 
 .navigation .nav-brand {
