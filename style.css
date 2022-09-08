@@ -123,5 +123,27 @@ body{
 }
 
 .pad{
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
+.pcolor{
+    color: var(--primary-color);
+}
+.hover-3 {
+    --c: no-repeat linear-gradient(#1095c1 0 0);
+    background: 
+      var(--c)  calc(-101% + var(--p,0%)) 100% / 50.1% var(--p,.08em),
+      var(--c)  calc( 201% - var(--p,0%)) 0    / 50.1% var(--p,.08em);
+    transition: .3s var(--t,0s), background-position .3s calc(.3s - var(--t,0s));
+  }
+  .hover-3:hover {
+    --p: 101%;
+    --t: 0.3s;
+  }
+  
+  h3 {
+    font-family: system-ui, sans-serif;
+    font-size: 3rem;
+    margin:0;
+    cursor: pointer;
+    padding: 0 .07em;
+  }
